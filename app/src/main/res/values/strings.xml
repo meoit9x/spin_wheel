@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Base</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!--FONT-->
+    <string name="font_italic" translatable="false">fonts/Roboto-BlackItalic.ttf</string>
+    <string name="font_bold" translatable="false">fonts/Roboto-Bold.ttf</string>
+    <string name="font_regular" translatable="false">fonts/Roboto-Regular.ttf</string>
+    <string name="font_black" translatable="false">fonts/Roboto-Black.ttf</string>
+    <string name="font_medium" translatable="false">font/Roboto-Medium.ttf</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="copy_to_clib_board">Save to clip board</string>
+    <string name="app_name_setting">Spin Wheel</string>
+    <string name="sound">Sound</string>
+    <string name="setting">Setting</string>
+    <string name="active_all">Active all</string>
+    <string name="inactive">Inactive</string>
+    <string name="content">Content</string>
+    <string name="loading_api">Getting the language for you</string>
+
+    <string name="title_default_1">What I want to eat is..</string>
+    <string name="content_default_1" translatable="false">Phone</string>
+    <string name="content_default_2" translatable="false">Moto</string>
+    <string name="content_default_3" translatable="false">Car</string>
+    <string name="content_default_4" translatable="false">Big Gift</string>
+    <string name="content_default_5" translatable="false">Kiss</string>
+    <string name="content_default_6" translatable="false">One chicken</string>
+
+    <string name="title_make_video_call">Make Voice Call</string>
+    <string name="call_now">Call Now</string>
+    <string name="call_type">Call type</string>
+    <string name="incoming_call">Incoming call</string>
+    <string name="calling">Calling</string>
+    <string name="name_your_friend">Name Your Friend</string>
+    <string name="hint_text_name">Cameron Williamson</string>
+    <string name="please_fill_in_the_information">Please fill in the information</string>
+    <string name="incoming_call_picture">Incoming call picture</string>
+    <string name="video_of_incoming_calls">Video of incoming calls</string>
+    <string name="call_later">Call later</string>
+    <string name="now">Now</string>
+    <string name="time_call_seconds">%s seconds</string>
+    <string name="time_call_minutes">%s minutes</string>
+    <string name="time_call_one_minutes">1 minute</string>
+    <string name="send_later">Send later</string>
+    <string name="pick_up_later">Pick up later</string>
+    <string name="voice_later">Voice later</string>
+    <string name="note">Note</string>
+    <string name="note_title_error">Please fill out the \ninformation completely</string>
+    <string name="ok">OK</string>
+    <string name="maxium_characters">Maximum of 25 characters</string>
+    <string name="error_link_video">Can\'t get video link.\n Please choose another video</string>
+    <string name="title_calling">Calling...</string>
+
+    <string name="message">Messenger</string>
+    <string name="video_call_on_messenger">Video call on messenger</string>
+    <string name="refuse">REFUSE</string>
+    <string name="answer">Answer</string>
+
+    <string name="outgoing_call_pictures">Outgoing call pictures</string>
+    <string name="change_picture">Change picture</string>
+    <string name="pick_up_the_phone_later">Pick up the phone later</string>
+    <string name="make_voice_call_title">Make Voice Call</string>
+    <string name="notification_type">Notification type</string>
+    <string name="top">Top</string>
+    <string name="popup">Popup</string>
+    <string name="message_photo">Message photo</string>
+    <string name="enter_message">Enter message</string>
+    <string name="send_a_message_later">Send a message later</string>
+    <string name="make_notification_title">Make Notification</string>
+    <string name="done">Done</string>
+
+    <string name="dialog_comment_title">Comment box</string>
+    <string name="input_title_phone">Số điện thoại: </string>
+    <string name="input_title_content">Nội dung: </string>
+    <string name="error_input">Sai định dạng số điện thoại.</string>
+    <string name="send">Gửi</string>
+
+    <string name="intro">QH88 là một ứng dụng công cụ hữu ích được thiết kế để giúp người dùng trong nhiều lĩnh vực khác nhau. Với nhiều tính năng đa dạng và dễ sử dụng, QH88 đem lại cho người dùng một trải nghiệm tuyệt vời và hiệu quả.
+
+        Ứng dụng QH88 cung cấp cho người dùng một loạt các công cụ để giải quyết các vấn đề. Với chức năng tìm kiếm thông minh, người dùng có thể tìm kiếm thông tin về các bài viết, các bài hướng dẫn hay các video hướng dẫn cụ thể về cách giải quyết các vấn đề, Ngoài ra, QH88 còn có tính năng tương tác với những chuyên gia trong lĩnh vực để giúp người dùng tìm ra giải pháp tốt nhất cho vấn đề của họ.
+
+        QH88 cũng cung cấp cho người dùng các công cụ để quản lý dữ liệu. Với tính năng lưu trữ và chia sẻ tập tin trực tuyến, người dùng có thể dễ dàng quản lý tài liệu của mình, bao gồm các tài liệu tập tin văn bản, hình ảnh, video hay tài liệu âm thanh. Ngoài ra, QH88 còn cung cấp cho người dùng tính năng backup và phục hồi tập tin, giúp bảo vệ dữ liệu của họ một cách an toàn.
+
+        Bên cạnh đó, QH88 còn cung cấp cho người dùng các công cụ quản lý thời gian hiệu quả. Tính năng nhắc nhở và lịch biểu giúp người dùng quản lý thời gian của họ một cách có khoa học, giúp nâng cao tính hiệu quả trong công việc, học tập hay là trong cuộc sống hằng ngày. Với những tính năng đa dạng và tiện ích, QH88 đem lại cho người dùng một trải nghiệm hoàn hảo.
+
+    </string>
+
+    <string name="email_feedback">Hòm thư góp ý</string>
+    <string name="verify_phone_number">Xác minh số điện thoại</string>
+    <string name="view_home">View home</string>
+    <string name="error_request_data">Lỗi server!</string>
+
+</resources>
