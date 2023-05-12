@@ -17,6 +17,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.navigation.NavController;
 
+import nat.pink.base.dao.DatabaseController;
 import nat.pink.base.databinding.ActivityMainBinding;
 import nat.pink.base.model.ObjectLocation;
 import nat.pink.base.ui.home.HomeFragment;
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initData() {
+        DatabaseController.getInstance(this).initDefaultDatabase();
         if (PreferenceUtil.getBoolean(this, Const.FIRST_APP, true)) {
             addFragment(new FragmentSplash(), FragmentSplash.TAG);
             return;

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen_activity"
+    android:orientation="vertical">
+
+    <include layout="@layout/custom_action_bar" android:id="@+id/ll_top"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <nat.pink.base.customView.ExtTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:text="@string/title_privacy"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:layout_constraintTop_toBottomOf="@id/rl_toolbar">
+
+            <nat.pink.base.customView.ExtTextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:textColor="@color/color_E8E8E8"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:text="@string/content_privacy"
+                android:textSize="@dimen/_14sdp"
+                android:lineSpacingMultiplier="1.1"
+                app:textViewFontAssetName="@string/font_regular" />
+        </ScrollView>
+
+        <FrameLayout
+            android:id="@+id/native_ads_privacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_14sdp" />
+    </LinearLayout>
+
+</LinearLayout>

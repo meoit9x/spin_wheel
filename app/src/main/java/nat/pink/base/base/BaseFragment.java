@@ -77,4 +77,14 @@ public abstract class BaseFragment<VB extends ViewBinding, VM extends BaseViewMo
             activity.addFragment(fragment, tag);
         }
     }
+
+    private String TAG = "";
+
+    protected void setTAG(String tag){
+        TAG = tag;
+    }
+
+    public String getTAG(){
+        return TAG;
+    }
 }

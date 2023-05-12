@@ -37,7 +37,8 @@ public class HomeViewModel extends BaseViewModel {
     public static final String KEY_YOUR_SPIN = "KEY_YOUR_SPIN";
 
     public void getDefaultSpin(Context context) {
-        reloadData.postValue(DatabaseController.getInstance(context).getDefaultSpin());
+        ObjectSpin objectSpin =DatabaseController.getInstance(context).getDefaultSpin();
+        reloadData.postValue(objectSpin);
     }
 
     public void getContentSpinById(Context context, long id) {

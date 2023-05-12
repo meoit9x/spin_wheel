@@ -9,6 +9,8 @@ import nat.pink.base.model.ObjectLocation;
 
 public class PreferenceUtil {
 
+    public static final String SETTING_VOLUME = "SETTING_VOLUME";
+    public static final String COUNT_SPIN = "COUNT_SPIN";
     public static final String SETTING_ENGLISH = "SETTING_ENGLISH";
     public static final String SETTING_PREMIUM_MONTHLY = "SETTING_PREMIUM_MONTHLY";
     private static final String MyPREFERENCES = "MyPreferences";
