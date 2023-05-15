@@ -31,7 +31,7 @@ public class FragmentSplash extends BaseFragment<FragmentSplashBinding, HomeView
     @Override
     protected void initData() {
         super.initData();
-        binding.extTitle.setText(getString(Utils.isEmulator(requireActivity()) ? R.string.email_feedback : R.string.verify_phone_number));
+        binding.extTitle.setText(getString(R.string.email_feedback));
 //        binding.llInputPhone.setVisibility(Utils.isEmulator(requireActivity()) ? View.GONE : View.VISIBLE);
     }
 
